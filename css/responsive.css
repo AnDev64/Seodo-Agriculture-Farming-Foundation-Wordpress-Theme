@@ -1,0 +1,291 @@
+/* phan header infor*/
+@media screen and (min-width:1400px) {
+    .header_infor_container{
+        max-width: 1084px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header_infor_container{
+        justify-content: space-around;
+    }
+    .header_infor_p{
+        display: none;
+    }
+    .header_infor_follow{
+        margin-left: 15px;
+    }
+    .header_infor_follow p{
+        display: none;
+    }
+    .header_infor_number{
+        margin-right: 15px;
+    }
+}
+
+
+
+/* phan header main*/
+
+@media screen and (max-width:1192px) {
+    .header_main_icons_search{
+        margin-right: 25px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .header_main_menu {
+        display: none;
+    }
+    .header_main_container{
+        height:110px;
+    }
+    .offcanvas-body_p1{
+        display: none;
+    }
+    .offcanvas-body_img{
+        display: none;
+    }
+    .offcanvas-body_contact{
+        display: none;
+    }
+    .offcanvas-body_follow{
+        display: none;
+    }
+    .menu_mobile{
+        display: block;
+        margin: 160px 0px;
+
+    }
+    .offcanvas-header{
+        margin-top: 50px;
+    }
+    .menu_mobile li{
+        list-style: none;
+        margin: 5px 0px;
+    }
+    .menu_mobile li a{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color:#fff;
+        transition: .5s;
+    }
+    .btn-close{
+        display: block;
+        background: url(https://banner2.kisspng.com/20180730/gio/kisspng-check-mark-x-mark-computer-icons-clip-art-cross-heart-5b5ea78a695c75.1672286615329299304316.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+@media screen and (max-width:560px) {
+    .header_main_container{
+        justify-content: space-between;
+        padding:28px 0px;
+    }
+    .header_main_img{
+        margin-left: 25px;
+    }
+    .header_main_icons{
+        margin-right: 25px;
+    }
+}
+
+
+/* phan main_banner*/
+@media screen and (max-width:1223.5px) {
+    #demo_banner .carousel-caption{
+        bottom:15%;
+    
+    }
+
+}
+@media screen and (max-width:767px) {
+    #demo_banner .carousel-caption h1{
+        font-size: 40px;
+    }
+    #demo_banner .carousel-caption {
+        bottom: 25%;
+    }
+    #demo_banner .carousel-control-next-icon, .carousel-control-prev-icon{
+        transform: scale(0.8);
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    #demo_banner .offcanvas-start{
+        width:350px;
+    }
+    #demo_banner .carousel-caption {
+        bottom: 15%;
+    }
+}
+
+
+/* Phan welcome*/
+
+@media screen and (min-width: 1200px) {
+    .welcome_container{
+        max-width: 1150px !important;
+    }
+}
+@media screen and (max-width:992px) {
+    .welcome_text{
+        padding: 0px 30px 50px 30px;
+    }
+    .welcome_slide{
+        padding: 15px 30px 15px 30px;
+    }
+    #demo_welcome .note_book{
+        left:-13px;
+
+    }
+}
+@media screen and (max-width:767px) {
+    .welcome_text_title{
+        font-size: 56px;
+    }
+    
+}
+
+@media screen and (max-width:570px) {
+    #demo_welcome .note_book{
+        left:-13px;
+        transform: translateY(-50%);
+    }
+}
+
+
+/* phan main_info_images*/
+
+@media screen and (max-width:992px) {
+    .info_images_container_row_box_h2{
+        font-size: 28px;
+    }
+    .info_images_container_row_box{
+        padding:0px 15px;
+        
+    }
+}
+@media screen and (max-width:768px) {
+    /* .info_images_container_row .info_images_container_row_box:nth-child(2){
+        padding-top: 0px;
+    } */
+    .info_images_container_row_box{
+        padding-top: 45px !important;
+    }
+    
+}
+
+
+/* pham commitment*/
+
+@media (min-width: 1400px) {
+    .commitment_container{
+        max-width: 1390px;
+    }
+}
+
+/* code mac dich*/
+
+@media (max-width: 576px) {
+    .commitment_container_main .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .commitment_container_main .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+    .commitment_container_title_h1{
+        font-size: 30px;
+    }
+}
+
+.commitment_container_main .carousel-inner .carousel-item.active,
+.commitment_container_main .carousel-inner .carousel-item-next,
+.commitment_container_main .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .commitment_container_main .carousel-inner .carousel-item-end.active,
+    .commitment_container_main .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .commitment_container_main .carousel-inner .carousel-item-start.active, 
+    .commitment_container_main .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.commitment_container_main .carousel-inner .carousel-item-end,
+.commitment_container_main .carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+/* |||| */
+
+@media screen and (min-width: 576px) {
+    .commitment_container_main .col-sm-6{
+    margin: 0px 20px;
+    width: 44% !important;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .commitment_container_main .col-lg-4{
+        width: 29% !important;
+        margin: 0px 20px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .commitment_container_main .col-xl-3{
+    margin: 0px auto;
+    width: 22% !important;
+    }
+}
+
+
+
+/* phan odometer*/
+
+@media (min-width: 1400px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1140px;
+}
+}
+
+
+@media screen and (max-width:992px) {
+    .odometer.odometer-auto-theme, .odometer.odometer-theme-default{
+        font-size: 60px;
+        
+    }
+}
+
+
+
+
+/* phan services*/
+
+@media screen and (max-width:767px) {
+    .member_service{
+        display: block;
+    }
+}
+
+
+
+
+
