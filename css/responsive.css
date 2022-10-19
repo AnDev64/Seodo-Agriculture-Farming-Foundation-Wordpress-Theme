@@ -186,9 +186,9 @@
 
 /* pham commitment*/
 
-@media (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
     .commitment_container{
-        max-width: 1390px;
+        max-width: 1390px !important;
     }
 }
 
@@ -286,6 +286,44 @@
 }
 
 
+/*phan nature*/
+@media screen and (max-width:991.5px) {
+    .nature_container_content_main_text{
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .nature_container_content_main_text{
+        
+        padding-top: 20px;
+    }
+}
+
+
+/*phan different*/
 
 
 
+@media screen and (min-width:767px) {
+    .different_container_main_row_box.col-md-6{
+        width:48%;
+        margin:0px auto;
+    }
+}
+@media screen and (min-width:992px) {
+    .different_container_main_row_box.col-lg-4{
+        width:31%;
+        margin:0px auto;
+        padding: 30px !important;
+    }
+}
+
+@media screen and (max-width:766px) {
+    .different_container_main_row_box{
+        width:90%;
+        margin:0px auto;
+        padding: 30px !important;
+
+    }
+}
