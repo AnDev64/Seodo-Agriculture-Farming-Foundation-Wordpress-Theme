@@ -75,7 +75,7 @@
     }
     .btn-close{
         display: block;
-        background: url(https://banner2.kisspng.com/20180730/gio/kisspng-check-mark-x-mark-computer-icons-clip-art-cross-heart-5b5ea78a695c75.1672286615329299304316.jpg);
+        background: url(https://tl.vhv.rs/dpng/s/426-4267489_close-button-transparent-png-pictures-close-button-icon.png);
         background-position: center;
         background-size: cover;
     }
@@ -325,5 +325,57 @@
         margin:0px auto;
         padding: 30px !important;
 
+    }
+}
+
+
+
+/* phan timeline*/
+
+@media screen and (max-width:451px) {
+    .timeline_container_main_ul span{
+        font-size: 15px;
+    }
+}
+
+
+
+/* phan partner*/
+
+@media screen and (max-width:767px) {
+    .partner_container_text h1{
+        font-size: 40px;
+    }
+
+}
+
+
+
+/* footer*/
+
+@media screen and (max-width:992px) {
+    .footer_container_email{
+        width:100%;
+        margin-left: 0px;
+        margin:40px 0px 65px;
+
+    }
+}
+
+
+footer .col-12{
+    width:95%;
+    margin: 0px auto;
+    padding-bottom: 30px;
+
+}
+
+footer .col-12 .content li{
+    line-height: 30px;
+}
+
+@media screen and (max-width:767px) {
+    .footer_container_bottom .text{
+        flex-direction: column;
     }
 }
