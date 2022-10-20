@@ -360,15 +360,16 @@
         margin:40px 0px 65px;
 
     }
+    footer .wa.col-12{
+        width:95%;
+        margin: 0px auto;
+        padding-bottom: 30px;
+    
+    }
 }
 
 
-footer .col-12{
-    width:95%;
-    margin: 0px auto;
-    padding-bottom: 30px;
 
-}
 
 footer .col-12 .content li{
     line-height: 30px;
@@ -377,5 +378,11 @@ footer .col-12 .content li{
 @media screen and (max-width:767px) {
     .footer_container_bottom .text{
         flex-direction: column;
+    }
+    footer .col-12{
+        width:95%;
+        margin: 0px auto;
+        padding-bottom: 30px;
+    
     }
 }
