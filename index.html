@@ -850,7 +850,7 @@
 
 
     function show(){
-        if(window.scrollY < 2630 && window.scrollY > 2580 || window.scrollY > 4700 && window.scrollY < 4800 || window.scrollY < 3250 && window.scrollY > 3150 ||window.scrollY < 4300 && window.scrollY > 4200){
+        if((window.scrollY < 2550 && window.scrollY > 2430  && screen.width > 991) || (window.scrollY < 3200 && window.scrollY > 3080 && screen.width < 992 && screen.width > 767)  || (window.scrollY > 4670 && window.scrollY < 4800 && screen.width < 768 && screen.width > 524)  || (window.scrollY < 4500 && window.scrollY > 4250 && screen.width <525)){
             const index_odometer1=document.querySelector('.odometer_number1');
             const odometer1 = new Odometer({
                 el: index_odometer1,
@@ -879,12 +879,15 @@
             index_odometer2.innerHTML=3459
             index_odometer3.innerHTML=15800
         }
+        //console.log(screen.width)
     }
 
 
     setInterval(show,10)
 
-    //console.log(window.scrollY)
+    document.addEventListener('scroll',()=>{
+        console.log(window.scrollY)
+    })
 
 
 
@@ -935,7 +938,6 @@
                 
         console.log(this.id)
     }
-    let a=1;
-
+    
 </script>
 </html>
