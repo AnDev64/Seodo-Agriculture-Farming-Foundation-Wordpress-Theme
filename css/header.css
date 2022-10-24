@@ -64,7 +64,7 @@ header{
     max-width: 1260px;
     margin: 0px auto;
     justify-content: space-between;
-    background: url(http://seodo.themezinho.net/wp-content/themes/seodo/images/pattern-bg.png),#009a4e;
+    background: url(../images/pattern-bg.png),#009a4e;
     align-items: center;
     background-size: cover;
     background-position: center;
@@ -157,7 +157,7 @@ header{
 
 
 .header_main_icons .offcanvas-start{
-    background: url(http://seodo.themezinho.net/wp-content/themes/seodo/images/pattern-bg.png),#000;
+    background: url(../images/pattern-bg.png),#000;
     background-position: center;
     background-size: cover;
 }

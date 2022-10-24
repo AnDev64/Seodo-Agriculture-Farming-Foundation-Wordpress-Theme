@@ -37,6 +37,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
+
+    <!-- link animation scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <style>
         
     </style>
@@ -265,7 +270,7 @@
                 </div>
             </div>
         </section>
-        <section class="info_images">
+        <section class="info_images" data-aos="fade-up">
             <div class="container info_images_container">
                 <div class="row info_images_container_row">
                     <div class="col-12 col-md-4 info_images_container_row_box">
@@ -527,7 +532,7 @@
                 </div>
             </div>
         </section>
-        <section class="nature">
+        <section class="nature" data-aos="fade-up">
             <div class="container nature_container">
                 <div class="nature_container_title text-center">
                     <img src="images/section-title-shape.png" alt="">
@@ -551,7 +556,7 @@
             </div>
         </section>
 
-        <section class="nature_part2">
+        <section class="nature_part2" data-aos="fade-up">
             <div class="container nature_container">
                 <div class="nature_container_content">
                     <div class="row nature_container_content_main">
@@ -571,7 +576,7 @@
             </div>
         </section>
 
-        <section class="different">
+        <section class="different" data-aos="fade-up">
             <div class="container different_container">
                 <h1 class="different_container_title text-center ">
                     Why we're different
@@ -939,5 +944,11 @@
         console.log(this.id)
     }
     
+
 </script>
+
+<script>
+    AOS.init();
+  </script>
+
 </html>
